@@ -1,0 +1,76 @@
+body {
+  margin: 0;
+  padding: 135px 125px 140px 125px;
+  font-family: "Josefin Sans";
+  font-style: semibold;
+}
+h1 {
+  color: rgb(8, 62, 158);
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 114.5%;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.big_second {
+  text-align: center;
+}
+h2,
+h3,
+.result,
+h4,
+h5 {
+  color: rgb(74, 85, 104);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 24px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+h3 {
+  color: rgb(8, 62, 158);
+  font-weight: 600;
+}
+.result {
+  color: rgb(0, 0, 0);
+  font-size: 36px;
+  font-weight: 600;
+  line-height: 36px;
+}
+h4 {
+  display: grid;
+  color: rgb(74, 85, 104);
+  font-weight: 400;
+  line-height: 114.5%;
+}
+input {
+  display: flex;
+  border: none;
+  border-radius: 4px;
+  background: rgba(0, 136, 204, 0.08);
+  width: 474px;
+  height: 64px;
+}
+#inpt {
+  color: #3b3b3b;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 36px;
+  padding-left: 27px;
+}
+.first_block {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: flex-end;
+}
+.second_block {
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+  align-items: center;
+}
+.big_second {
+  align-items: center;
+  padding-top: 140px;
+}
